@@ -73,8 +73,8 @@ def recommend(movie):
     )
 
 
-movies = pd.read_pickle('movie_list.pkl')
-similarity = pd.read_pickle('similarity.pkl')
+movies = pd.read_pickle("./movie_list.pkl")
+similarity = pd.read_pickle("./similarity.pkl")
 
 movie_list = movies['title'].values
 
